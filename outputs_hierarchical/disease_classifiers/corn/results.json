@@ -1,0 +1,15 @@
+{
+  "task_name": "Corn Disease Classification",
+  "model": "mobilenet_v3_small",
+  "best_val_loss": 0.422,
+  "best_val_accuracy": 0.9682,
+  "best_epoch": 18,
+  "test_accuracy": 0.9554,
+  "num_classes": 4,
+  "class_names": [
+    "Blight",
+    "Common_Rust",
+    "Gray_Leaf_Spot",
+    "Healthy"
+  ]
+}
