@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Local caches
+.cache/
+
+# Raw and prepared datasets
+raw_data/
+raw_paddy/
+dataset/
+dataset_*/
+hierarchical_data/
+
+# Scratch outputs from the older MobileNetV2 entrypoint.
+# Keep outputs_hierarchical/ and outputs_mobilenetv3_small/ commit-ready
+# if you want cloned repos to run inference immediately.
+outputs/
+outputs_hierarchical_smoke/
+
+# Generated prediction visualizations and reports
+*_gradcam.png
+predictions.json
+hierarchical_predictions.json
+test_predictions_with_probs.csv
