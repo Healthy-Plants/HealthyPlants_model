@@ -1,0 +1,18 @@
+{
+  "task_name": "Cotton Disease Classification",
+  "model": "mobilenet_v3_small",
+  "best_val_loss": 0.5121,
+  "best_val_accuracy": 0.9783,
+  "best_epoch": 34,
+  "test_accuracy": 0.9536,
+  "num_classes": 7,
+  "class_names": [
+    "Bacterial Blight",
+    "Curl Virus",
+    "Healthy Leaf",
+    "Herbicide Growth Damage",
+    "Leaf Hopper Jassids",
+    "Leaf Redding",
+    "Leaf Variegation"
+  ]
+}
