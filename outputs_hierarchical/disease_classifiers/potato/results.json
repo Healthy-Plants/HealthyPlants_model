@@ -1,0 +1,14 @@
+{
+  "task_name": "Potato Disease Classification",
+  "model": "mobilenet_v3_small",
+  "best_val_loss": 0.3011,
+  "best_val_accuracy": 0.9959,
+  "best_epoch": 22,
+  "test_accuracy": 0.9959,
+  "num_classes": 3,
+  "class_names": [
+    "Early_Blight",
+    "Healthy",
+    "Late_Blight"
+  ]
+}

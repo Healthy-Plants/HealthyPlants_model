@@ -1,0 +1,15 @@
+{
+  "task_name": "Crop Classification",
+  "model": "mobilenet_v3_small",
+  "best_val_loss": 0.3492,
+  "best_val_accuracy": 1.0,
+  "best_epoch": 21,
+  "test_accuracy": 0.9996,
+  "num_classes": 4,
+  "class_names": [
+    "corn",
+    "cotton",
+    "potato",
+    "rice"
+  ]
+}

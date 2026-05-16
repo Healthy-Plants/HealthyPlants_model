@@ -1,0 +1,14 @@
+{
+  "model": "mobilenet_v3_small",
+  "best_val_loss": 0.3499,
+  "best_val_accuracy": 1.0,
+  "best_epoch": 23,
+  "test_accuracy": 1.0,
+  "num_classes": 4,
+  "class_names": [
+    "Bacterialblight",
+    "Blast",
+    "Brownspot",
+    "Tungro"
+  ]
+}
